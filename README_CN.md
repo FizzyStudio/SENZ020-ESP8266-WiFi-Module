@@ -2,11 +2,11 @@
 
 ###### 翻译
 
-> `英文` 请参考 [`这里`](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/README.md)
+> `英文` 请参考 [`这里`](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/README.md)
 
-> `中文` 请参考 [`这里`](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/README_CN.md)
+> `中文` 请参考 [`这里`](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/README_CN.md)
 
-![](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020.jpg "SENZ020")
+![](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020.jpg "SENZ020")
  
 
 ### 产品介绍
@@ -44,12 +44,12 @@
 |GPIO2|||
 
 
-![](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020_pin.jpg "引脚定义") 
+![](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020_pin.jpg "引脚定义") 
 
 
 #### 连线图
 
-![](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020_connect.PNG "连线图") 
+![](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020_connect.PNG "连线图") 
 
 
 ### 示例代码
@@ -57,7 +57,7 @@
 #### Sample1:
 
 > To develop with serial AT command.  
-> Download description for [`AT Command Doc`](http://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/trunk/doc/AT Command Doc.pdf)
+> Download description for [`AT Command Doc`](http://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/trunk/doc/AT Command Doc.pdf)
 
 	/*
 	RXD <-> Pin3, TXD <-> Pin2;
@@ -92,7 +92,7 @@
 #### Sample2:
 
 > To develop with Arduino board.  
-> Download and add the library to Arduino  IDE [`uartWIFI.h`](http://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/trunk/lib/uartWIFI.zip)
+> Download and add the library to Arduino  IDE [`uartWIFI.h`](http://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/trunk/lib/uartWIFI.zip)
 
 	#include "uartWIFI.h"
 	#define SSID "xxxxxxx"        //wifi热点
