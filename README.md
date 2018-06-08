@@ -2,11 +2,11 @@
 
 ###### Translation
 
-> For `English`, please click [`here.`](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/README.md)
+> For `English`, please click [`here.`](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/README.md)
 
-> For `Chinese`, please click [`here.`](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/README_CN.md)
+> For `Chinese`, please click [`here.`](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/README_CN.md)
 
-![](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020.jpg "SENZ020")
+![](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020.jpg "SENZ020")
 
 
 ### Introduction
@@ -44,11 +44,11 @@
 |GPIO2|||
 
 
-![](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020_pin.jpg "Pin Definition") 
+![](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020_pin.jpg "Pin Definition") 
 
 #### Connecting Diagram
 
-![](https://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020_connect.PNG "Connecting Diagram") 
+![](https://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/master/pic/SENZ020_connect.PNG "Connecting Diagram") 
 
 
 ### Sample Code
@@ -56,9 +56,10 @@
 #### Sample1:
 
 > To develop with serial AT commands.  
-> Download description for [`AT_Command_Doc`](http://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/trunk/doc/AT_Command_Doc.pdf)
+> Download description for [`AT_Command_Doc`](http://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/trunk/doc/AT_Command_Doc.pdf)
 
 	/*
+	RXD <-> Pin3, TXD <-> Pin2;
 	Built the Serial by Arduino's Pin 2 & Pin 3, debug  serial and test the TCP/IP with other software.
 	*/
 
@@ -90,7 +91,7 @@
 #### Sample2:
 
 > To develop with Arduino board.  
-> Download and add the library to Arduino  IDE [`uartWIFI.h`](http://github.com/njustcjj/SENZ020-ESP8266-WiFi-Module/blob/trunk/lib/uartWIFI.zip)
+> Download and add the library to Arduino  IDE [`uartWIFI.h`](http://github.com/FizzyStudio/SENZ020-ESP8266-WiFi-Module/blob/trunk/lib/uartWIFI.zip)
 
 	#include "uartWIFI.h"
 	#define SSID "xxxxxxx"        //wifi name
@@ -173,4 +174,4 @@
 	}
 
 
-### Purchasing [*SENZ020-ESP8266-ESP-01S-WiFi-Module*](https://www.ebay.com/).
+### Purchasing [*SENZ020-ESP8266-ESP-01S-WiFi-Module*](https://www.ebay.com/itm/263742872631?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1558.l2649).
